@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.container{
+    width: 85%;
+    max-width: 65em;
+    margin: 0 auto;
+}
+.btn{ 
+    display: inline-block;
+    padding: -0.6 rem;
+    border-radius: .25em;
+    font-size: 1rem;
+    padding: .5em 1.25em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(0, 172, 29) ;
+    transition: 
+            transform 500ms ease-in-out,
+            opacity 250ms linear;
+}
+.btn:hover,
+.btn:focus{
+    transform: scale(1.1);
+    opacity: .7;
+}
+.primary-title{
+    font-size: 4rem;
+}
+.hero{
+    text-align: center;
+    padding: 15em 0;
+    background: url(../img/cover-01.png);
+}
